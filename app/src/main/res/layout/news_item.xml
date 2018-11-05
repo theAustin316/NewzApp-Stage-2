@@ -10,7 +10,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/relate_height"
+            android:layout_height="wrap_content"
             android:padding="@dimen/relate_padding">
 
             <TextView
@@ -41,7 +41,7 @@
                 android:textSize="@dimen/text_size"
                 android:textColor="@color/blue"
                 android:layout_marginTop="@dimen/margin_List"
-                android:maxLines="5"
+                android:maxLines="4"
                 tools:text="@string/trail"
                 android:layout_below="@id/webTitle_TextView"/>
 
@@ -51,6 +51,7 @@
                 android:layout_height="wrap_content"
                 tools:text="@string/Author"
                 android:textColor="@color/pink"
+                android:layout_below="@id/trailText_TextView"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"/>
 
