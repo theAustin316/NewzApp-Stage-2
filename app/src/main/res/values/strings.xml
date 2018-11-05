@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">NewzApp</string>
+    <string name="demo_txt">msklmlksmfskldmf klsdnfldsnglfn ckknnfkx</string>
+    <string name="trail">Trail textt kjdblsfnlkn dhdvnnc sf</string>
+    <string name="Category">Category</string>
+    <string name="Author">Author</string>
+    <string name="date">12/08/2108</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Newz Settings</string>
+
+    <string name="settings_min_newz_label">Choose Maximum Newz</string>
+    <string name="settings_min_newz_key" translatable="false">page-size</string>
+    <string name="settings_min_newz_default" translatable="false">10</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newz_value</string>
+
+    <!-- Label for order-by newz option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newz_label">Relevance</string>
+    <string name="settings_order_by_newz_value" translatable="false">relevance</string>
+
+    <!-- Label for order-by most recent newz option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_newz_label">Newest</string>
+    <string name="settings_order_by_most_recent_newz_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most oldest news option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_oldest_news_label">Oldest</string>
+    <string name="settings_order_by_most_oldest_news_value" translatable="false">oldest</string>
+
+
+    <string name="no_news_found">\tCurrently No Newz for you.\n Please check  your Internet connection and Settings.\n Fetch yourself a coffee and we might find something for you by that time</string>
+    <string name="no_internet_connection">No Internet Connection Found !!!!</string>
+
+</resources>
